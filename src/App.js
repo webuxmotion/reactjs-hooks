@@ -1,11 +1,10 @@
-import CallbackExample from './CallbackExample';
+import ContextDemo from "./context-demo/ContextDemo";
 
 function App() {
   
   return (
-    <div>
-      <div>APP</div>
-      <CallbackExample />
+    <div className="container">
+      <ContextDemo />
     </div>
   );
 }
