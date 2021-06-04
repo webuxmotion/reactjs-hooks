@@ -1,16 +1,11 @@
-import EffectExample from "./EffectExample";
-import StateExample from './StateExample';
-import RefExample from './RefExample';
+import CallbackExample from './CallbackExample';
 
 function App() {
   
-
   return (
     <div>
       <div>APP</div>
-      {/* <EffectExample /> */}
-      {/* <StateExample /> */}
-      <RefExample />
+      <CallbackExample />
     </div>
   );
 }
