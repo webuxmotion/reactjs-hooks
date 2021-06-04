@@ -1,10 +1,10 @@
-import ContextDemo from "./context-demo/ContextDemo";
+import CustomHooksExample from "./CustomHooksExample";
 
 function App() {
   
   return (
     <div className="container">
-      <ContextDemo />
+      <CustomHooksExample />
     </div>
   );
 }

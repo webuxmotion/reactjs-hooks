@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 
 import ItemsList from "./ItemsList";
 
-function MemoExample() {
+function CallbackExample() {
   const [colored, setColored] = useState(false);
   const [count, setCount] = useState(1);
 
@@ -28,4 +28,4 @@ function MemoExample() {
   );
 }
 
-export default MemoExample;
+export default CallbackExample;
